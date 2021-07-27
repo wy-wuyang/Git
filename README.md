@@ -19,5 +19,13 @@
 |- git checkout <分支名> 切换分支
 |- git checkout -b <分支名> 创建新分支并切换到新分支上
 
+|- git tag  查看当前已有的tag标签
+| |-git tag <标签名>  创建本地tag
+| |-git push origin <标签名>  推送到远程仓库
+| |-git show <标签名> 查看某个标签详细信息
+
+|-git tag -d <tagName>  删除本地标签
+|-git push origin :refs/tags/<tagName>  删除远程标签
+
 </pre>
 ```
