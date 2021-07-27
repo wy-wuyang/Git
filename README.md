@@ -25,6 +25,7 @@
 | |-git show <标签名> 查看某个标签详细信息
 
 |-git tag -d <tagName>  删除本地标签
+|-git tag -l | xargs git tag -d  删除本地所有标签
 |-git push origin :refs/tags/<tagName>  删除远程标签
 
 </pre>
